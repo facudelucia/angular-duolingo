@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "textoIngles": "Hello, how are you?",
+        "textoEspañol": "Hola como estas",
+        "palabras": [
+            {
+                "palabra": "Hola",
+                "id": 1
+            },
+            {
+                "palabra": "auto",
+                "id": 2
+            },
+            {
+                "palabra": "zapato",
+                "id": 3
+            },
+            {
+                "palabra": "bien",
+                "id": 4
+            },
+            {
+                "palabra": "como",
+                "id": 5
+            },
+            {
+                "palabra": "dia",
+                "id": 6
+            },
+            {
+                "palabra": "estás",
+                "id": 7
+            },
+            {
+                "palabra": "buen",
+                "id": 8
+            },
+            {
+                "palabra": "desayuno",
+                "id": 9
+            },
+            {
+                "palabra": "mesa",
+                "id": 10
+            }
+        ],
+        "img": "../assets/character1.jpg"
+    },
+    {
+        "id": 2,
+        "textoIngles": "The car is red",
+        "textoEspañol": "El auto es rojo",
+        "palabras": [
+            {
+                "palabra": "auto",
+                "id": 1
+            },
+            {
+                "palabra": "El",
+                "id": 2
+            },
+            {
+                "palabra": "verde",
+                "id": 3
+            },
+            {
+                "palabra": "moto",
+                "id": 4
+            },
+            {
+                "palabra": "zapatilla",
+                "id": 5
+            },
+            {
+                "palabra": "calle",
+                "id": 6
+            },
+            {
+                "palabra": "es",
+                "id": 7
+            },
+            {
+                "palabra": "rojo",
+                "id": 8
+            },
+            {
+                "palabra": "azul",
+                "id": 9
+            },
+            {
+                "palabra": "semaforo",
+                "id": 10
+            }
+        ],
+        "img": "../assets/character2.jpg"
+    },
+    {
+        "id": 3,
+         "textoIngles": "What\"s your name?",
+        "textoEspañol": "Como te llamas",
+        "palabras": [
+            {
+                "palabra": "celular",
+                "id": 1
+            },
+            {
+                "palabra": "sonido",
+                "id": 2
+            },
+            {
+                "palabra": "Cómo",
+                "id": 3
+            },
+            {
+                "palabra": "te",
+                "id": 4
+            },
+            {
+                "palabra": "hoja",
+                "id": 5
+            },
+            {
+                "palabra": "papel",
+                "id": 6
+            },
+            {
+                "palabra": "rojo",
+                "id": 7
+            },
+            {
+                "palabra": "pantalla",
+                "id": 8
+            },
+            {
+                "palabra": "llamas",
+                "id": 9
+            },
+            {
+                "palabra": "lapiz",
+                "id": 10
+            }
+        ],
+        "img": "../assets/character3.jpg"
+    },
+    {
+        "id": 4,
+        "textoIngles": "The coffee is hot",
+        "textoEspañol": "El cafe esta caliente",
+        "palabras": [
+            {
+                "palabra": "césped",
+                "id": 1
+            },
+            {
+                "palabra": "bola",
+                "id": 2
+            },
+            {
+                "palabra": "El",
+                "id": 3
+            },
+            {
+                "palabra": "café",
+                "id": 4
+            },
+            {
+                "palabra": "deporte",
+                "id": 5
+            },
+            {
+                "palabra": "arco",
+                "id": 6
+            },
+            {
+                "palabra": "cable",
+                "id": 7
+            },
+            {
+                "palabra": "está",
+                "id": 8
+            },
+            {
+                "palabra": "caliente",
+                "id": 9
+            },
+            {
+                "palabra": "frio",
+                "id": 10
+            }
+        ],
+        "img": "../assets/character4.jpg"
+    }
+]

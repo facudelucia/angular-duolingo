@@ -1,0 +1,33 @@
+<div *ngIf="!setSuccess && !setError" class="footer">
+    <div *ngIf="!useKeyb" class="footer-section footer-section-key" (click)="useKeyboard()">
+        <i class="fas fa-keyboard"></i> UTILIZAR TECLADO
+    </div>
+    <div *ngIf="useKeyb" class="footer-section footer-section-key" (click)="useWords()">
+        <i class="fas fa-keyboard"></i> UTILIZAR BANCO DE PALABRAS
+    </div>
+    <div class="footer-section">
+        <button [disabled]="!existsValue" (click)="comprobar()">COMPROBAR</button>
+    </div>
+</div>
+<div *ngIf="setSuccess" class="footer-success">
+    <div class="footer-success-section">
+        <div class="icon-success">
+            <i class="fas fa-check"></i>
+        </div>
+        CORRECTO
+    </div>
+    <div class="footer-success-section">
+        <button (click)="avanzar()">CONTINUAR</button>
+    </div>
+</div>
+<div *ngIf="setError" class="footer-error">
+    <div class="footer-error-section">
+        <div class="icon-error">
+            <i class="fas fa-times"></i>
+        </div>
+        INCORRECTO
+    </div>
+    <div class="footer-error-section">
+        <button (click)="reintentar()">REINTENTAR</button>
+    </div>
+</div>

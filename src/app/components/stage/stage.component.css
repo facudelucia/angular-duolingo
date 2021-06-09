@@ -1,0 +1,112 @@
+
+.character-img{
+    height: 115px;
+}
+.stageContent{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.stageContent h1{
+    font-size: 24px;
+}
+.stageContent__top{
+    display: flex;
+    padding-top: 20px;
+}
+.stage-text {
+    width: 100%;
+    border: 1px solid #E1EAE4;
+    padding-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 20px;
+}
+.stage-text:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 8px solid #E1EAE4;
+    border-top: 10px solid #E1EAE4;
+    border-bottom: 10px solid transparent;
+    left: -20px;
+    top: 6px;
+  }
+  
+.stage-text:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 7px solid transparent;
+    border-right: 7px solid #fff;
+    border-top: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+    left: -14px;
+    top: 8px;
+  }
+  
+.stageContent-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.palabraButton{
+    padding: 6px 10px;
+    background-color: white;
+    color: #474747;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 4px 2px;
+    box-shadow: 0px 1px 1px 0px #e5e5e5;
+}
+.renglon{
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.renglon .palabraButton{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.first{
+    height: 0px;
+    margin-top: 0px;
+}
+.stageContent-middle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keyboardSelected {
+    width: 94%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1.7px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+@media screen and (min-width:576px){
+    .stageContent{
+        width: 60%;
+    }
+    .stageContent h1 {
+        font-size: 32px;
+    }
+    .keyboardSelected {
+        width: 100%;
+    }
+}

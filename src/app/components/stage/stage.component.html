@@ -1,0 +1,33 @@
+<div class="stageContent" *ngIf="pruebas.length > 0">
+    <h1>Escribe esto en español</h1>
+    <div class="stageContent__top">
+        <img [src]="pruebas[this.prueba].img" class="character-img">
+        <div class="stage-text">
+            {{pruebas[this.prueba].textoIngles}}
+        </div>
+    </div>
+    <div *ngIf="!useKey" class="stageContent-middle">
+        <div class="renglon first">
+        </div>
+        <div class="renglon">
+            <div (click)="eliminar(item)" class="palabraButton" *ngFor="let item of palabrasArray1">
+                {{item.palabra}}
+            </div>
+        </div>
+        <div class="renglon">
+            <div (click)="eliminar(item)" class="palabraButton" *ngFor="let item of palabrasArray2">
+                {{item.palabra}}
+            </div>
+        </div>
+        <div class="stageContent-bottom">
+            <div (click)="selectPalabra(item)" class="palabraButton" *ngFor="let item of pruebas[this.prueba].palabras">
+                {{item.palabra}}
+            </div>
+        </div>
+    </div>
+    <form *ngIf="useKey" [formGroup]="miFormulario">
+        <textarea (keyup)="busquedaR()" formControlName="busqueda" placeholder="Escribe en español"
+            class="keyboardSelected"></textarea>
+    </form>
+
+</div>
